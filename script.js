@@ -69,3 +69,8 @@ function multiply(a, b) {
 function divide(a, b) {
   return parseInt(a) / parseInt(b);
 }
+$(document).ready(function() {
+  $('.box').click(function() {
+    $(this).css('backgroundColor', 'red');
+  });
+});
