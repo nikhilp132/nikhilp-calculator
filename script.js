@@ -69,24 +69,24 @@ function multiply(a, b) {
 function divide(a, b) {
   return parseInt(a) / parseInt(b);
 }
-$(document).ready(function() {
-  $('.box').click(function() {
-    $(this).css('backgroundColor', 'red');
-  });
+// $(document).ready(function() {
+//   $('.box').click(function() {
+//     $(this).css('backgroundColor', 'red');
+//   });
 
-  $('#sum').click(function() {
-    console.log($(this).attr('data-result'));
-  });
-});
+//   $('#sum').click(function() {
+//     console.log($(this).attr('data-result'));
+//   });
+// });
 
-const array = [2, 5, 9];
+// const array = [2, 5, 9];
 
-console.log(array);
+// console.log(array);
 
-const index = array.indexOf(5);
-if (index > -1) {
-  array.splice(index, 1);
-}
+// const index = array.indexOf(5);
+// if (index > -1) {
+//   array.splice(index, 1);
+// }
 
-// array = [2, 9]
-console.log(array);
+// // array = [2, 9]
+// console.log(array);
